@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(../images/bg2.jpg) no-repeat;
+  background-size: cover;
+  font-family: "PT Sans", sans-serif;
+  background-attachment: fixed;
+  background-position: center;
+}
+.container {
+  width: 45%;
+}
+.col-12,
+.col-6 {
+  margin-top: 8px;
+}
+form {
+  background: rgba(171, 171, 171, 0.34);
+  padding: 40px;
+}
+h1 {
+  font-size: 45px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  margin: 40px 0 40px 0;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+}
+label.head {
+  font-size: 17px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.star {
+  font-size: 20px;
+  vertical-align: middle;
+  color: #d60026;
+  line-height: 1;
+}
+h2 {
+  font-size: 25px;
+  color: #ffd200;
+  margin: 2em 0 1em;
+  font-family: "Josefin Sans", sans-serif;
+}
+textarea {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+  width: 100%;
+  padding: 10px;
+  resize: none;
+  min-height: 100px;
+  border: 1px solid #fff;
+  outline: none;
+  background: #fff;
+}
+.btn {
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px;
+  width: 50%;
+  margin: 20px auto 0px;
+  border: 1px solid #fff;
+  outline: none;
+  cursor: pointer;
+  display: block;
+  color: #fff;
+  background: rgba(199, 65, 132, 0);
+}
+.btn:hover {
+  background-color: #fff;
+  color: black;
+}
+.error {
+  color: yellow;
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 45%;
+  }
+}
+@media (max-width: 1399px) {
+  .container {
+    width: 45%;
+  }
+}
+@media (max-width: 1199px) {
+  .container {
+    width: 65%;
+  }
+}
+@media (max-width: 991px) {
+  .container {
+    width: 70%;
+  }
+  form {
+    padding: 32px;
+  }
+  h1 {
+    font-size: 40px;
+    margin: 25px 0;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    width: 80%;
+  }
+  form {
+    padding: 26px;
+  }
+}
+@media (max-width: 575px) {
+  .container {
+    width: 90%;
+  }
+  .btn input[type="submit"] {
+    width: 60%;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  form {
+    padding: 22px;
+  }
+}
